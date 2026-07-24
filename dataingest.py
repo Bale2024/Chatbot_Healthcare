@@ -65,24 +65,3 @@ for i, doc in enumerate(documents):
     )
 
 print("Data uploaded successfully!")
-
-#index = pc.Index("healthcare-rag")
-# Configure Gemini
-# configure(api_key="AIza***********************xyz")
-'''
-def embed_text(text):
-    model = "models/embedding-001"
-    return genai.embed_content(
-        model=model,
-        content=text
-    )["embedding"] '''
-
-'''def get_embedding(text: str) -> list[float]:
-    """Generate embedding for a single text using Gemini."""
-    result = genai.embed_content(
-        model="all-MiniLM-L6-v2",
-        content=text,
-        task_type="retrieval_document"
-    )
-    embedding = [float(x) for x in result["embedding"]]
-    return embedding'''
