@@ -72,6 +72,3 @@ if user_query:
     st.write(answer)
     st.write("Note: Please ask next healthcare question in the field above.")
     
-    
-    #with st.expander("Retrieved Context"):
-    #    st.write(context)
