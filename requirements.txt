@@ -3,12 +3,6 @@ python-dotenv
 pinecone
 google-generativeai
 sentence-transformers
-langchain
-langchain-community
-langchain-core
-numpy
-pandas
-pypdf
-scikit-learn
-pytorch 
-transformers
+
+
+
